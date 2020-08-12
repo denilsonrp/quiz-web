@@ -1,6 +1,6 @@
 # 💻 Cadastro de Questionários
 
-Aplicação para criação e listagem de questionários
+Aplicação web para criação e listagem de questionários
 
 ## 📦 Instalação e execução
 
@@ -18,7 +18,7 @@ yarn install
 # Executar aplicação em modo desenvolvimento (servidor local na porta :9000)
 yarn server
 
-# Ou abrir arquivo index.html no browser (nesse caso, gerar o build para produção)
+# Ou abrir arquivo index.html no browser (nesse caso, garantir que o build para produção esteja gerado em /public/dist/)
 ```
 
 ```bash
@@ -26,9 +26,7 @@ yarn server
 yarn build:prod
 ```
 
-```bash
-# Garantir que a baseURL do arquivo /assets/src/js/services/api-config.js esteja apontando corretamente para a API. Por padrão a porta usada para acessar a API é a :3001
-```
+Garantir que a baseURL do arquivo ```/assets/src/js/services/api-config.js``` esteja apontando corretamente para a API. Por padrão, a porta usada para acessar a API local é a :3001
 
 ## 🛠️ Tecnologias utilizadas
 
