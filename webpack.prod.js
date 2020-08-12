@@ -19,12 +19,6 @@ module.exports = merge(common, {
     ]
   },
   plugins: [
-    new CopyWebpackPlugin([
-      {
-        from: 'assets/src/images',
-        to: 'images'
-      }
-    ]),
     new OptimizeCSSAssetsPlugin({
       cssProcessorPluginOptions: {
         preset: ['default', {

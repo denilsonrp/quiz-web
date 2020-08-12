@@ -11,13 +11,5 @@ module.exports = merge(common, {
       watchOptions: {
         poll: true
       }
-    },
-    plugins: [
-      new CopyWebpackPlugin([
-        {
-          from: 'assets/src/images',
-          to: 'images'
-        }
-      ]),
-    ]
+    }
 })
