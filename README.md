@@ -18,7 +18,7 @@ yarn install
 # Executar aplicação em modo desenvolvimento (servidor local na porta :9000)
 yarn server
 
-# Ou abrir arquivo index.html no browser (nesse caso, garantir que o build para produção esteja gerado em /public/dist/)
+# Ou abrir o arquivo index.html no browser (nesse caso, garantir que o build atualizado para produção esteja gerado em /public/dist/)
 ```
 
 ```bash
