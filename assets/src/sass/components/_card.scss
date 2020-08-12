@@ -1,0 +1,44 @@
+.card {
+  background: $white;
+  display: flex;
+  padding: 20px;
+  position: relative;
+
+  @include border-radius(5px);
+  @include box-shadow(4px, 4px, 4px, -4px, $gray);
+
+  &:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  > .infos {
+
+    > small {
+      margin-bottom: 10px;
+    }
+  }
+
+  > .buttons {
+    min-width: 75px;
+
+    > a + a {
+      margin-left: 15px;
+    }
+  }
+
+  > .answers {
+    margin-top: 20px;
+
+    > h3 ~ h3 {
+      margin-top: 20px;
+    }
+
+    p {
+      color: $medium-gray;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.input {
+  border: 2px solid $gray;
+  color: $gray;
+  height: 60px;
+  margin-top: 30px;
+  padding: 0 20px;
+  width: 100%;
+
+  @include border-radius(5px);
+
+  &::placeholder {
+    color: $medium-gray;
+  }
+}
